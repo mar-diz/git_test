@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+  <meta charset="UTF-8"/>
+</head>
+<body>
+  <script>
+    // Your JavaScript goes here!
+    console.log("Hello, World!")
+    console.log("my first printout in JavaScript in 2021!! Wow.")
+    //add 2 numbers togehter
+    console.log(1 + 2)
+    //add a sequence of 6 different numbers together 
+    console.log(1 + 2 + 3 + 4 + 5 + 6)
+    //Print the solution to the following equation: (4 + 6 + 9) / 77
+    console.log( (4 + 6 + 9) / 77 )
+    // Let’s use variables!
+    //Type the following at the top of the script tag: let a = 10
+    //console.log(a) should print 10
+    //Try the following: 9 * a
+    //and this: let b = 7 * a (returns undefined) and then console.log(b)
+    let a = 10
+    console.log(a)
+    console.log(9*a)
+    let b = 7 * a
+    console.log(b)
+    //You should be getting the hang of this by now… try this sequence:
+    //Declare a constant variable max with the value 57
+    //Set another variable actual to max - 13
+    //Set another variable percentage to actual / max
+    //If you type percentage in the console and press enter you should see a value like 0.771
+    const max = 57
+    console.log("Max: " + max)
+    var actual = max - 13
+    console.log("Actual: " + actual)
+    var percentage = actual/max
+    console.log(7%4)
+    actual++
+    console.log(actual)
+    //infinity 
+    console.log(1/0)
+    //do a arithmetic operation with string divided by a number  
+    console.log('string'/2)
+    //using back ticks
+    console.log(`This is a test back tick with $$ sign: ${9000}`)
+    //boolean values
+    let truee = false;
+    console.log(truee)
+    let example = 4 > 2
+    console.log("is 4 greater than 2: " + example)
+    //data types Null and Undefined
+    //null is empty, void, value unknown
+    //undefined means the value is not assigned yet on the right hand side of the code 
+    //Objects - a different data type because it is not primitive 
+
+    //typeof operator
+    console.log(typeof("STRINGGG"))
+    //strings
+    let stringA = "This is a string"
+    console.log(stringA)
+    //replace   
+    stringA =  stringA.replace("string","This is my stringA variable now")
+    console.log(stringA)
+    //uppercase
+    console.log(stringA.toUpperCase())
+    //now to conditionals!!
+    if( 4 > 2) {
+        console.log("indeed 4 is greater than: " + 2)
+    }/*
+    //using conditional statement with prompt
+    let input = prompt("What is the \"official\" name of JavaScript")
+    //if ECMAScript -> output "Right!", else output "You don't know? ECMAScript!"
+    if (input == "ECMAScript"){
+        alert("Right!")
+    }
+    else{
+        alert("You don't know? ECMAScript!!!!")
+    }
+    */
+    let input = prompt("input a number")
+    if(input > 0){
+        alert(1)
+    }
+    else if(input < 0 ){
+        alert(-1)
+    }
+    else{
+        alert(0)
+    }
+    //using the conditional operator '?'
+    let result = 1 < 4? 'Below': 'Over' ;
+    console.log(result)
+    //using multiple ternary operators 
+
+  </script>
+</body>
+</html>
